@@ -1,3 +1,89 @@
-h1{
-    color: red;
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3{
+    color: #333;
+}
+
+p{
+    color: #70747a;
+}
+
+.navbar-container{
+    width: 100%;
+    height: 80px;
+    background-color: #232a31;
+    padding:0 1rem;
+
+
+}
+
+nav{
+    position: relative;
+}
+
+.logo{
+    width: 100px;
+    margin-top: 0px;
+}
+
+.navbar-itens{
+    position: absolute;
+    right: 0;
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
+    display: inline-block;
+}
+
+.navbar-itens li{
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 25px;
+}
+
+.navbar-itens a{
+    color: rgb(255,187,0);
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.navbar-itens a:hover{
+    font-size: 15px;
+    color: rgb(255,160,8);
+    
+}
+
+.main-banner{
+    background-image: url(../img/corumba.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10rem 0;
+
+}
+
+.main-banner h1,
+.main-banner p{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: bold;
+    text-shadow: #000 3px 2px 3px;
+
+}
+.main-banner h1 span{
+    color: rgb(255,187,0);
+}
+
+.main-banner h1{
+    font-size: 60px;
+}
+.main-banner p{
+    font-size: 25px;
 }
